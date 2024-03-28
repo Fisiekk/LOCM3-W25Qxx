@@ -12,7 +12,11 @@
  * 1 block = 16 sectors
  * 1 sector (4096 B) = 16 pages
  * 1 page = 256 B
- */
+ * 
+ * numer of pages depends on model
+ * eg. 64Mbit version has 128 blocks
+ * 256Mbit has 512 blocks etc.
+*/
 
 void clock_setup(void)
 {
