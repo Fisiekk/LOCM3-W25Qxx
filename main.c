@@ -17,14 +17,14 @@
  * eg. 64Mbit version has 128 blocks
  * 256Mbit has 512 blocks etc.
 */
-
+/*
 void clock_setup(void)
 {
-  rcc
+  
 }
-
+*/
 int main(void)
 {
-  uint8_t page_buffer[]
+  uint8_t page_buffer[32] = {0};
   return 0;
 }
