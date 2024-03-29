@@ -4,7 +4,7 @@ BUILD_DIR = bin
 #SHARED_DIR = ../common
 CFILES = main.c
 
-DEVICE=stm32f411ceu6
+DEVICE=stm32G031f6
 
 #OOCD_FILE =
 
